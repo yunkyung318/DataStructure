@@ -15,13 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cal_score.c">
+    <ClCompile Include="factorial.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="cal_time.c">
+    <ClCompile Include="factorial2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="seq_search.c">
+    <ClCompile Include="factorial3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="slow_power.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="power.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fib.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fib_iter.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="hanoi_tower.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
