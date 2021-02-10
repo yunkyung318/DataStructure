@@ -24,5 +24,17 @@
     <ClCompile Include="polynomial.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="matrix1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="swap.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="array1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
