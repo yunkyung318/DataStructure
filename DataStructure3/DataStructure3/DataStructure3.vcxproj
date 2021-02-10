@@ -144,6 +144,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="array1.c" />
+    <ClCompile Include="malloc.c" />
+    <ClCompile Include="malloc2.c" />
     <ClCompile Include="matrix1.c" />
     <ClCompile Include="matrix2.c" />
     <ClCompile Include="polynomial.c">
