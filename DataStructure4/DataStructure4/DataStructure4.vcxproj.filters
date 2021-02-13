@@ -21,7 +21,25 @@
     <ClCompile Include="StructArrrayStack.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CommonArrayStack2.c">
+    <ClCompile Include="스택연습.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicArrayStack.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonArrayStack.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentheseCheck.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Postmarking.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixToPostfix.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Maze.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
