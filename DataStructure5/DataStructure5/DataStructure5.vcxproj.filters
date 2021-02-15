@@ -18,5 +18,8 @@
     <ClCompile Include="AlignmentQueue.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CircleQueue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
