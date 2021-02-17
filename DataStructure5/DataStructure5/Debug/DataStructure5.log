@@ -1,4 +1,29 @@
-﻿  CircleQueue.c
+﻿  ApplyQueue.c
+c:\users\dbsru\source\repos\datastructure5\datastructure5\applyqueue.c(76): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\dbsru\source\repos\datastructure5\datastructure5\applyqueue.c(73): warning C4101: 'element' :참조되지 않은 지역 변수입니다.
+  BankServiceSimulation.c
+c:\users\dbsru\source\repos\datastructure5\datastructure5\bankservicesimulation.c(47): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'element'입니다.
+c:\users\dbsru\source\repos\datastructure5\datastructure5\bankservicesimulation.c(92): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  CircleQueue.c
 c:\users\dbsru\source\repos\datastructure5\datastructure5\circlequeue.c(79): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
-  DataStructure5.vcxproj -> C:\Users\dbsru\source\repos\DataStructure5\Debug\DataStructure5.exe
+  코드를 생성하고 있습니다...
+BankServiceSimulation.obj : error LNK2005: _dequeue이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+BankServiceSimulation.obj : error LNK2005: _enqueue이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+BankServiceSimulation.obj : error LNK2005: _error이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+BankServiceSimulation.obj : error LNK2005: _init_queue이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+BankServiceSimulation.obj : error LNK2005: _is_empty이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+BankServiceSimulation.obj : error LNK2005: _is_full이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+BankServiceSimulation.obj : error LNK2005: _main이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+BankServiceSimulation.obj : error LNK2005: _peek이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+BankServiceSimulation.obj : error LNK2005: _queue_print이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+CircleQueue.obj : error LNK2005: _dequeue이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+CircleQueue.obj : error LNK2005: _enqueue이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+CircleQueue.obj : error LNK2005: _error이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+CircleQueue.obj : error LNK2005: _init_queue이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+CircleQueue.obj : error LNK2005: _is_empty이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+CircleQueue.obj : error LNK2005: _is_full이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+CircleQueue.obj : error LNK2005: _main이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+CircleQueue.obj : error LNK2005: _peek이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+CircleQueue.obj : error LNK2005: _queue_print이(가) ApplyQueue.obj에 이미 정의되어 있습니다.
+C:\Users\dbsru\source\repos\DataStructure5\Debug\DataStructure5.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
