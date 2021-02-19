@@ -18,5 +18,8 @@
     <ClCompile Include="ArrayList.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedList.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
