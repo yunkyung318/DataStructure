@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define MAX_LIST_SIZE 100
+#define max_list_size 100
 
 typedef int element;
 typedef struct {
-	element array[MAX_LIST_SIZE];
+	element array[max_list_size];
 	int size;
-}ArrayListType;
+}arraylisttype;
 
 void error(char *message)
 {
@@ -14,70 +14,70 @@ void error(char *message)
 	exit(1);
 }
 
-void init(ArrayListType *L)
+void init(arraylisttype *l)
 {
-	L->size = 0;
+	l->size = 0;
 }
 
-int is_empty(ArrayListType *L)
+int is_empty(arraylisttype *l)
 {
-	return L->size == 0;
+	return l->size == 0;
 }
 
-int is_full(ArrayListType *L)
+int is_full(arraylisttype *l)
 {
-	return L->size == MAX_LIST_SIZE;
+	return l->size == max_list_size;
 }
 
-element get_entry(ArrayListType *L, int pos)
+element get_entry(arraylisttype *l, int pos)
 {
-	if (pos < 0 || pos >= L->size)
+	if (pos < 0 || pos >= l->size)
 		error("위치 오류");
-	return L->array[pos];
+	return l->array[pos];
 }
 
-void print_list(ArrayListType *L)
+void print_list(arraylisttype *l)
 {
 	int i;
-	for (i = 0; i < L->size; i++)
-		printf("%d -> ", L->array[i]);
+	for (i = 0; i < l->size; i++)
+		printf("%d -> ", l->array[i]);
 	printf("\n");
 }
 
-void insert_last(ArrayListType *L, element item)
+void insert_last(arraylisttype *l, element item)
 {
-	if (L->size >= MAX_LIST_SIZE) {
+	if (l->size >= max_list_size) {
 		error("스택 오버 플로우");
 	}
-	L->array[L->size++] = item;
+	l->array[l->size++] = item;
 }
 
-void insert(ArrayListType *L, int pos, element item)
+void insert(arraylisttype *l, int pos, element item)
 {
-	if (!is_full(L) && (pos >= 0) && (pos <= L->size)) {
-		for (int i = (L->size - 1); i >= pos; i--)
-			L->array[i + 1] = L->array[i];
-		L->array[pos] = item;
-		L->size++;
+	if (!is_full(l) && (pos >= 0) && (pos <= l->size)) {
+		for (int i = (l->size - 1); i >= pos; i--)
+			l->array[i + 1] = l->array[i];
+		l->array[pos] = item;
+		l->size++;
 	}
 }
 
-element delete(ArrayListType *L, int pos)
+element delete(arraylisttype *l, int pos)
 {
 	element item;
 
-	if (pos < 0 || pos >= L->size)
+	if (pos < 0 || pos >= l->size)
 		error("위치 오류");
-	item = L->array[pos];
-	for (int i = pos; i < (L->size - 1); i++)
-		L->array[i] = L->array[i + 1];
-	L->size--;
+	item = l->array[pos];
+	for (int i = pos; i < (l->size - 1); i++)
+		l->array[i] = l->array[i + 1];
+	l->size--;
 	return item;
 }
 
 int main()
 {
-	ArrayListType list;
+	arraylisttype list;
 
 	init(&list);
 	insert(&list, 0, 10);
