@@ -30,5 +30,11 @@
     <ClCompile Include="Lap3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lap4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyAdd.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -147,7 +147,9 @@
     <ClCompile Include="Lap1.c" />
     <ClCompile Include="Lap2.c" />
     <ClCompile Include="Lap3.c" />
+    <ClCompile Include="Lap4.c" />
     <ClCompile Include="LinkedList.c" />
+    <ClCompile Include="PolyAdd.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
