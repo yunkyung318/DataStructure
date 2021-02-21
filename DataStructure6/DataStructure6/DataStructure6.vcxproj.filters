@@ -24,5 +24,11 @@
     <ClCompile Include="Lap1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lap2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Lap3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
