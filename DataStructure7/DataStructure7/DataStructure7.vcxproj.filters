@@ -27,5 +27,8 @@
     <ClCompile Include="Mp3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedStack.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

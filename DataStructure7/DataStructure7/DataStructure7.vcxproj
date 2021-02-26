@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClCompile Include="CircleLinkedListTest.c" />
     <ClCompile Include="DoubleLinkedList.c" />
+    <ClCompile Include="LinkedStack.c" />
     <ClCompile Include="Mp3.c" />
     <ClCompile Include="MultiGame.c" />
   </ItemGroup>
