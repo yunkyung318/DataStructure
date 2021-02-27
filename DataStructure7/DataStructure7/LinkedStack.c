@@ -66,7 +66,7 @@ element peek(LinkedStackType *s)
 	}
 }
 
-int main(void)
+int main()
 {
 	LinkedStackType s;
 	init(&s);

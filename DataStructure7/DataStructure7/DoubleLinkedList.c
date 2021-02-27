@@ -41,7 +41,7 @@ void ddelete(DListNode* head, DListNode* removed)
 	free(removed);
 }
 
-int main(void)
+int main()
 {
 	DListNode* head = (DListNode *)malloc(sizeof(DListNode));
 	init(head);
