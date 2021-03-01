@@ -18,5 +18,14 @@
     <ClCompile Include="HeapTree.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="HeapSort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LPT.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Huffman.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
